@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en-US" dir="ltr">
+
+<head>
+
+    <title>JS Review</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+
+    <h2>&nbsp;</h2>
+    <h2>TOO SMALL!!!</h2>
+    <h2>RESIZE!!!</h2>
+
+    <div>
+
+        <hr>
+
+        <button onclick="date()">Display Date</button>
+        <span id="display-date"></span>
+        <br>
+
+        <hr>
+
+        <button class="add-margin" onclick="convertNumber()">Number ➔ String</button>
+        <input id="user-number" type="number">
+        <span id="display-string"></span>
+        <br>
+
+        <button class="add-margin" onclick="convertString()">String ➔ Number</button>
+        <input id="user-string" type="text">
+        <span id="display-number"></span>
+        <br>
+
+        <button onclick="add()">Add</button>
+        <input id="user-add1" type="number">
+        <input id="user-add2" type="number">
+        <span id="display-add"></span>
+
+        <hr>
+
+        <button class="add-margin" onclick="checkType()">Check Type</button>
+        <input id="user-type" type="text">
+        <span id="display-type"></span>
+        <br>
+
+        <button onclick="checkTruth()">Check Truth</button>
+        <select id="user-truth1">
+            <option value="unselected"></option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+        <select id="user-truth2">
+            <option value="unselected"></option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+        <span id="display-truth"></span>
+
+        <hr>
+
+    </div>
+
+</body>
+
+</html>

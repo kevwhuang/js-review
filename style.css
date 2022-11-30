@@ -1,0 +1,71 @@
+* {
+    color: #fff;
+}
+
+body {
+    background: #444;
+}
+
+button {
+    border: 1px solid #000;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 20%;
+}
+
+button:hover {
+    color: navy;
+}
+
+button:active {
+    color: crimson;
+}
+
+h2 {
+    display: none;
+    font-size: 3rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+hr {
+    margin: 1rem 0px;
+}
+
+input {
+    border: 1px solid #000;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 10%;
+}
+
+label {
+    margin-left: 1rem;
+}
+
+select {
+    border: 1px solid #000;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 10%;
+}
+
+span {
+    padding-left: 1rem;
+}
+
+.add-margin {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:700px) {
+
+    div {
+        display: none;
+    }
+
+    h2 {
+        display: block;
+    }
+
+}
